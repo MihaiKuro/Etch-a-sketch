@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+
+}
+body{
+  
+    background-color: rgb(200, 237, 255);
+}
+
+.header{
+    display: flex;
+    background-color: rgb(11, 246, 167);
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid #f20909;
+    box-shadow: 0px 0px 10px 5px #f20909;
+    justify-content: center;
+    align-items: center;
+
+}
+.header h1{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: #390000;
+    text-shadow: 0px 0px 10px #f20909;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.gridContainer{
+    display: grid;
+    
+    height: 600px;
+    width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #7a00b769;
+    box-shadow: 0px 0px 20px 5px #ff010199;
+    border-radius: 15px;
+    margin-left: 60vh;
+    margin-top: 5vh;
+}
+.row{
+    display: flex;
+   
+    
+
+}
+.cell{
+    flex:1;
+    border: 1px solid #f3f2f2;
+      
+}
+
+.cell:hover{
+    background-color: #f3f2f2;
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 20vh;
+    background-color: rgba(37, 248, 255, 0);
+
+}
+.controls #colorPicker{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #f20909;
+    background-color:  #9efdff;
+    color: #f20909;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.controls #colorPicker:hover{
+    background-color: #eafafa;
+    cursor: pointer;
+    transition: 2s;
+}
+.controls button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #f20909;
+    background-color: #9efdff;
+    color: #f20909;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.controls button:hover{
+    background-color: #eafafa;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.sizeValue{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: #390000;
+    margin-top: 2vh;
+    border: 1px solid #f20909;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: #9efdff;
+    color: #f20909;
+}
+
+#sizeSlider{
+    width: 15vh;
+    margin-top: 2vh;
+    cursor: pointer;
+
+}
+
